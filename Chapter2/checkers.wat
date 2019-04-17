@@ -227,7 +227,7 @@
        (call $setPiece (i32.const 7) (i32.const 0) (i32.const 2))
 
        ;; 2nd row
-       (call $setPiece (i32.const 8) (i32.const 0) (i32.const 2))
+       (call $setPiece (i32.const 8)  (i32.const 0) (i32.const 2))
        (call $setPiece (i32.const 10) (i32.const 0) (i32.const 2))
        (call $setPiece (i32.const 12) (i32.const 0) (i32.const 2))
        (call $setPiece (i32.const 14) (i32.const 0) (i32.const 2))
@@ -240,19 +240,19 @@
 
        ;; Place the black pieces at the bottom of the board
 
-       ;; 6st row
+       ;; 6th row
        (call $setPiece (i32.const 40) (i32.const 0) (i32.const 1))
        (call $setPiece (i32.const 42) (i32.const 0) (i32.const 1))
        (call $setPiece (i32.const 44) (i32.const 0) (i32.const 1))
        (call $setPiece (i32.const 46) (i32.const 0) (i32.const 1))
 
-       ;; 7nd row
+       ;; 7th row
        (call $setPiece (i32.const 49) (i32.const 0) (i32.const 1))
        (call $setPiece (i32.const 51) (i32.const 0) (i32.const 1))
        (call $setPiece (i32.const 53) (i32.const 0) (i32.const 1))
        (call $setPiece (i32.const 55) (i32.const 0) (i32.const 1))
 
-       ;; 8rd row
+       ;; 8th row
        (call $setPiece (i32.const 56) (i32.const 0) (i32.const 1))
        (call $setPiece (i32.const 58) (i32.const 0) (i32.const 1))
        (call $setPiece (i32.const 60) (i32.const 0) (i32.const 1))
