@@ -1,0 +1,9 @@
+[package]
+name = "rustycheckers"
+version = "0.1.0"
+authors = ["Matthew J. Berger <matthewberger@nevada.unr.edu>"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
